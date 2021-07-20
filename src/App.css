@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    font-weight: 400;
+    font-family:'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    background:radial-gradient(circle,#191d23,#282d37 ,#181b21);
+    background:linear-gradient(to right, #151518, #0c1015);
+  
+        
+}
+
+
+.text-about{
+  font-weight:lighter;
+}
+
+
+.intro{
+    font-family:'Poppins', sans-serif;
+}
+
+.full-cont{
+  
+}
+.home{
+    color:rgb(255, 255, 255);
+    text-align:center;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    
+}
+
+
+
+.title{
+    font-size: 4.0rem;
+    font-weight: 500;
+}
+.name{
+    color: #f53765;
+    font-size:4.5rem;
+    font-weight: 700;
+  }
+
+.tag{
+    color: #616161;
+}
+.contact{
+    text-shadow: none;
+}
+
+.transition{
+  padding-right: 30px;
+  
+}
+
+.ld{
+  background-color: #1877f2;
+}
+.ig{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.gh{
+  background-color: #1b1e23;
+}
+.fb{
+  background-color: #0a66c2;
+}
+.tw{
+  background-color:#00aced;
+}
+
+.footer{
+  background:linear-gradient(to right, #151518, #0c1015);
+}
+.home {
+	animation: fadeInAnimation ease 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 415px) {
+  .title{
+    font-size: 3.0rem;
+    margin-bottom: 4.5rem;
+    font-weight: 500;
+}
+.name{
+    color: #4070F4;
+    color: #f53765;
+    font-size:3.0rem;
+    font-weight: 700;
+  }
+  .home{
+    height: 100vh;
+  }
+
+.transition{  
+  padding-right: 10px;
+  
+}
+
+
+}
+
+
